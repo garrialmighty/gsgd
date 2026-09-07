@@ -1,0 +1,10 @@
+[profile.default]
+src = "src"
+out = "out"
+libs = ["lib"]
+remappings = [
+    "@openzeppelin/contracts=lib/openzeppelin-contracts/contracts/",
+    "@solmate/tokens/=lib/solmate/src/tokens/",
+    "@chainlink/contracts/src/v0.8/shared/interfaces/=lib/chainlink-brownie-contracts/contracts/src/v0.8/interfaces/",
+]
+# See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
